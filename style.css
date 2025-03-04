@@ -1,0 +1,28 @@
+.calculadora {
+    width: 300px;
+    margin: 50px auto;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  #display {
+    width: 95%;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 1.5em;
+    border: 1px solid #ccc;
+  }
+  
+  .botoes {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+  }
+  
+  button {
+    padding: 15px;
+    font-size: 1.2em;
+    border: 1px solid #ccc;
+    cursor: pointer;
+  }
